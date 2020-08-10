@@ -1,0 +1,69 @@
+body{
+
+    margin:0px;
+    padding:30px;
+
+}
+
+.blackkey{
+    height:700px;
+    width:100px;
+    /* border:1px solid black; */
+    border:2px outset #a29989;
+    background-image: url("./images/white.png");
+
+
+
+}
+
+.blackkey:active{
+    background-image: url("./images/white_pressed.png");
+}
+
+.container{
+    position:relative;
+}
+
+.parent{
+    display: flex;
+    position: relative;
+}
+
+.whitekeysparent{
+    display: flex;
+    position: absolute;
+    top:0px;
+    left:60px;
+    
+}
+
+.whitekey{
+    height:400px;
+    width:70px;
+    border:1px solid black;
+    background-color: black;
+    background-image: url("./images/blackkeynew.png");
+    margin-right:40px;
+   
+}
+
+.whitekey:active{
+    height:400px;
+    width:70px;
+    border:1px solid black;
+    background-color: black;
+    background-image: url("./images/blackkeypress.png");
+    transition: background-image ease-in 200ms;
+    margin-right:40px;
+   
+}
+
+
+.whitekeyno-flat{
+    visibility: hidden;
+    height:350px;
+    width:70px;
+    border:1px solid black;
+    background-color: rgb(255, 255, 255);
+    margin-right:10px;
+}
