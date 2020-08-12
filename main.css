@@ -19,6 +19,9 @@ body{
 .blackkey:active{
     background-image: url("./images/white_pressed.png");
 }
+.win{
+    background-image: url("./images/white_pressed.png");
+}
 
 .container{
     position:relative;
